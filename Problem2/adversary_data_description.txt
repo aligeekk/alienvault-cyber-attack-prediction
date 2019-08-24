@@ -1,0 +1,31 @@
+These fields indicate that the adversary has performed a recon activity within the described time of the attack.
+For example, if reconInLast10 is 1, then this adversary performed a recon activity within 10 days of this attack
+reconInLast10
+reconInLast30
+reconInLast60
+reconInLast90
+reconInLast120
+reconInLast150
+reconInLast180
+reconInLast210
+reconInLast240
+reconInLast270
+reconInLast300
+reconInLast330
+reconInLast360
+reconInLast390
+reconInLast420
+reconInLast450
+reconInLast480
+reconInLast510
+reconInLast540
+reconInLast570
+reconInLast600
+
+attackType - This field describes the attack type, based on tags in the original OTX data. The map is as follows:
+0 = other
+1 = exploit
+2 = malware
+3 = rootkit
+4 = ddos
+5 = trojan
